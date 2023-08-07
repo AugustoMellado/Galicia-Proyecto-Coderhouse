@@ -1,0 +1,83 @@
+<!--Tipografias-->
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+<!--Nav-->
+
+nav {
+    background-color: #FFFFFF;
+}
+nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18 px;
+    line-height: 24 px;
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+<!--Titulo-->
+section h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+}
+
+<!--Cards-->
+.btn__card {
+    background: #C85000 ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.titulos__cards {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.texto__cards {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.imagen__card {
+    max-height: 270 px;
+}
+
+<!--Seccion Ayuda-->
+
+.seccion__ayuda {
+    background-color: #F5EEEA;
+}
+
+.titulo__seccionayuda {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.subtitulos__seccionayuda {
+    color: #6A6A6A;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.btn__seccionayuda {
+        background: #C85000 ;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+    }
+
+<!--Footer--> 
+
+.titulos__footer {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.texto__footer {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
