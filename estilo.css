@@ -1,10 +1,10 @@
-<!--Tipografias-->
+/*Tipografias*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-<!--Nav-->
+/*Nav*/
 
 nav {
     background-color: #FFFFFF;
@@ -18,13 +18,13 @@ nav a {
     text-decoration: none;
 }
 
-<!--Titulo-->
+/*Titulo*/
 section h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700; 
 }
 
-<!--Cards-->
+/*Cards*/
 .btn__card {
     background: #C85000 ;
     color: white;
@@ -46,10 +46,19 @@ section h1 {
     max-height: 270 px;
 }
 
-<!--Seccion Ayuda-->
+.card--box {
+    height: 100%;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/*Seccion Ayuda*/
 
 .seccion__ayuda {
-    background-color: #F5EEEA;
+    background-color: #F5EEEA !important;
 }
 
 .titulo__seccionayuda {
@@ -64,13 +73,15 @@ section h1 {
 }
 
 .btn__seccionayuda {
-        background: #C85000 ;
-        color: white;
-        font-family: 'Inter', sans-serif;
-        font-weight: 700;
-    }
+    background: #C85000;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    max-width: 300px;
+}
 
-<!--Footer--> 
+/*Footer*/ 
 
 .titulos__footer {
     font-family: 'Inter', sans-serif;
