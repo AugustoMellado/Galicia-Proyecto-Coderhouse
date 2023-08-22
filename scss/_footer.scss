@@ -1,12 +1,17 @@
+/*Mixin*/
+
+@mixin familyandweight($Ffamilia,$Fweight){
+    font-family: $Ffamilia;
+    font-weight: $Fweight;
+}
+
 /*Footer*/ 
 
 .titulos__footer {
-    font-family: $fuente-principal;
-    font-weight: $weight-700;
+    @include familyandweight($fuente-principal,$weight-700)
 }
 
 .texto__footer {
-    font-family: $fuente-principal;
-    font-weight: $weight-400;
+    @include familyandweight($fuente-principal,$weight-400)
 }
 

@@ -1,9 +1,10 @@
 /*Nav*/
 
 .link--nav {
-    font-family: $fuente-principal;
-    font-weight: $weight-600;
+    @extend .titulos__cards;
+    /*Transicion*/
+    transition: background-color 1s, border-radius 1s;
     &:hover {
-        background-color: #ffe2ce;
+        background-color: $color-hoverlinknav;
         border-radius: 10px;}
 }

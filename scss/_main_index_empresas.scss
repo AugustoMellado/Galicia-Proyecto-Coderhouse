@@ -2,9 +2,10 @@
 
 /*Titulo*/
 
+/*Extend*/
+
 h1 {
-    font-family: $fuente-principal;
-    font-weight: $weight-700; 
+    @extend .titulos__footer;
 }
 
 /*Cards*/
@@ -14,6 +15,7 @@ h1 {
     color: $color-secundario;
     font-family: $fuente-principal;
     font-weight: $weight-600;
+    transition: background 1s, color 1s ;
     &:hover {
         background: $color-hoverbtn;
         color: $color-secundario;
@@ -27,13 +29,12 @@ h1 {
 }
 
 .texto__cards {
-    font-family: $fuente-principal;
-    font-weight: $weight-400;
+    @extend .texto__footer;
 }
 
 .card--box {
     height: 100%;
-    background: #FFFFFF;
+    background: $color-secundario;
 }
 
 .card-img-top {
@@ -60,6 +61,7 @@ h1 {
     font-weight: $weight-600;
     width: 100%;
     max-width: 350px;
+    transition: background 1s, color 1s;
     &:hover {
         background: $color-hoverbtn;
         color: $color-secundario;
