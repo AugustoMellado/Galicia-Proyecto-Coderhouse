@@ -6,7 +6,7 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <!--SEO-->
     <title>Banco Galicia: Empresas</title>
     <meta name="description" content="Descubre soluciones financieras diseñadas para impulsar el crecimiento de tu empresa en Banco Galicia. Nuestra sección para Empresas ofrece herramientas especializadas, servicios bancarios y asesoramiento para optimizar tus operaciones. Desde financiamiento hasta gestión de efectivo, estamos aquí para ser tu socio comercial de confianza.">
@@ -17,7 +17,7 @@
 
 <body>
 <!--HTML Semántico-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary barra-nave shadow p-2 bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-2 bg-body-tertiary">
     <div class="container-fluid">
     <a class="navbar-brand ms-2" href="../index.html"> <img src="../recursos/logo_banco_galicia.svg" alt="Galicia" width="165.391 px" height="48 px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,20 +25,20 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-        <li class="nav-item pe-4">
-            <a class="nav-link active" aria-current="page" href="../index.html">Personas</a>
+        <li class="nav-item">
+            <a class="nav-link active link--nav pe-4 ps-4" aria-current="page" href="../index.html">Personas</a>
         </li>
-        <li class="nav-item pe-4">
-            <a class="nav-link active" aria-current="page" href="#">Empresas</a>
+        <li class="nav-item">
+            <a class="nav-link active link--nav pe-4 ps-4" aria-current="page" href="#">Empresas</a>
         </li>
-        <li class="nav-item pe-4">
-            <a class="nav-link active" aria-current="page" href="../paginas/quiero.html">Quiero</a>
+        <li class="nav-item">
+            <a class="nav-link active link--nav pe-4 ps-4" aria-current="page" href="../paginas/quiero.html">Quiero</a>
         </li>
-        <li class="nav-item pe-4">
-            <a class="nav-link active" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
+        <li class="nav-item">
+            <a class="nav-link active link--nav pe-4 ps-4" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
         </li>
-        <li class="nav-item pe-4">
-            <a class="nav-link active" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+        <li class="nav-item">
+            <a class="nav-link active link--nav pe-4 ps-4" aria-current="page" href="../paginas/contacto.html">Contacto</a>
         </li>
         </ul>
     </div>
@@ -46,7 +46,7 @@
 </nav>
 <!--Banner Empresas Imagen-->
 <header class="container mt-4 mb-4  d-flex justify-content-center">
-    <div id="carouselExampleAutoplaying" class="carousel slide col-12" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide col-12 shadow-sm bg-body-tertiary rounded" data-bs-ride="carousel">
         <div class="carousel-inner rounded">
         <div class="carousel-item active ">
             <img src="../recursos/banner_empresas.jpeg" class="d-block w-100" alt="...">
@@ -71,12 +71,12 @@
 <main class="mt-4 mb-4">
 <div class="pb-4">
     <!--Titulo-->
-    <h1 class="d-flex justify-content-center h1 text-center mb-4">Elegí tu propuesta Galicia</h1>
+    <h1 class="d-flex justify-content-center text-center mb-4">Elegí tu propuesta Galicia</h1>
     <!--Cards-->
     <div class="container mb-4">
         <div class="row gy-4">
             <div class="col-xl-4 col-md-6">
-                <div class="card card--box">
+                <div class="card card--box shadow-sm bg-body-tertiary rounded">
                 <img src="../recursos/cardempresa_1.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title titulos__cards">Cobra tu sueldo en Galicia</h5>
@@ -86,7 +86,7 @@
             </div>
         </div>
         <div class="col-xl-4 col-md-6">
-            <div class="card card--box">
+            <div class="card card--box shadow-sm bg-body-tertiary rounded">
                 <img src="../recursos/cardempresa_2.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title titulos__cards">Cajea tus puntos</h5>
@@ -95,8 +95,8 @@
                 </div>
             </div>
         </div>
-            <div class="col-xl-4 col-md-12">
-                <div class="card card--box">
+            <div class="col-xl-4 col-md-12 ">
+                <div class="card card--box shadow-sm bg-body-tertiary rounded">
                     <img src="../recursos/cardempresa_3.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title titulos__cards">Hace crecer tu dinero</h5>
@@ -115,13 +115,13 @@
             <img src="../recursos/ayuda.png" alt="">
         </div>
         <div class="d-flex justify-content-center">
-            <h1 class="h1 text-center titulo__seccionayuda">¿Necesitás ayuda?</h1>
+            <h1 class="text-center">¿Necesitás ayuda?</h1>
         </div>
-        <div class="mt-1">
-            <p class="h5 text-center subtitulos__seccionayuda">Respondemos tus dudas</p>
+        <div class="mt-2">
+            <h5 class="text-center subtitulos__seccionayuda">Respondemos tus dudas</h5>
         </div>
         <div class="d-flex justify-content-center">
-            <a class="btn btn__seccionayuda mt-1 mb-1" href="../paginas/ayuda.html" role="button">Ir a ayuda</a>
+            <a class="btn btn__seccionayuda mt-2 mb-2" href="../paginas/ayuda.html" role="button">Ir a ayuda</a>
         </div>
     </div>
 </div>

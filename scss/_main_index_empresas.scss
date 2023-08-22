@@ -1,0 +1,68 @@
+/*Main Index y Empresas*/
+
+/*Titulo*/
+
+h1 {
+    font-family: $fuente-principal;
+    font-weight: $weight-700; 
+}
+
+/*Cards*/
+
+.btn__card {
+    background: $color-primario;
+    color: $color-secundario;
+    font-family: $fuente-principal;
+    font-weight: $weight-600;
+    &:hover {
+        background: $color-hoverbtn;
+        color: $color-secundario;
+    }
+    
+}
+
+.titulos__cards {
+    font-family: $fuente-principal;
+    font-weight: $weight-600;
+}
+
+.texto__cards {
+    font-family: $fuente-principal;
+    font-weight: $weight-400;
+}
+
+.card--box {
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/*Seccion Ayuda*/
+
+.seccion__ayuda {
+    background-color: $color-background-seccionayuda;
+}
+
+.subtitulos__seccionayuda {
+    font-family: $fuente-principal;
+    color: $color-subtitulos-seccionayuda;
+    font-weight: $weight-400;
+}
+
+.btn__seccionayuda {
+    background: $color-primario;
+    color: $color-secundario;
+    font-family: $fuente-principal;
+    font-weight: $weight-600;
+    width: 100%;
+    max-width: 350px;
+    &:hover {
+        background: $color-hoverbtn;
+        color: $color-secundario;
+    }
+}
+

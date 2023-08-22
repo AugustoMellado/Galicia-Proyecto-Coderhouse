@@ -1,0 +1,92 @@
+/*Import Sass*/
+/*Variables Colores*/
+/*Tipografias*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/*Variables Fuentes*/
+/*Nav*/
+.link--nav {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.link--nav:hover {
+  background-color: #ffe2ce;
+  border-radius: 10px;
+}
+
+/*Main Index y Empresas*/
+/*Titulo*/
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+/*Cards*/
+.btn__card {
+  background: #C85000;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.btn__card:hover {
+  background: #fa6400;
+  color: #FFFFFF;
+}
+
+.titulos__cards {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.texto__cards {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.card--box {
+  height: 100%;
+  background: #FFFFFF;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/*Seccion Ayuda*/
+.seccion__ayuda {
+  background-color: #F5EEEA;
+}
+
+.subtitulos__seccionayuda {
+  font-family: "Inter", sans-serif;
+  color: #6A6A6A;
+  font-weight: 400;
+}
+
+.btn__seccionayuda {
+  background: #C85000;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  width: 100%;
+  max-width: 350px;
+}
+.btn__seccionayuda:hover {
+  background: #fa6400;
+  color: #FFFFFF;
+}
+
+/*Footer*/
+.titulos__footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.texto__footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=estilos.css.map */

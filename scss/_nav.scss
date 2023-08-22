@@ -1,0 +1,9 @@
+/*Nav*/
+
+.link--nav {
+    font-family: $fuente-principal;
+    font-weight: $weight-600;
+    &:hover {
+        background-color: #ffe2ce;
+        border-radius: 10px;}
+}
