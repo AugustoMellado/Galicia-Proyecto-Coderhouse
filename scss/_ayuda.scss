@@ -1,0 +1,56 @@
+/*Pagina Ayuda*/
+
+.titulos--ayuda {
+    @extend .titulos__cards;
+}
+
+.preguntas--ayuda {
+    @extend .titulos__footer;
+}
+
+.respuestas--ayuda {
+    @extend .texto__footer;
+}
+
+.link--ayuda {
+    color: $color-primario;
+    text-decoration: none;
+    transition: color 1s;
+    &:hover {
+        color: $color-hoverbtn;
+    }
+}
+
+.fondo--tituloayuda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../recursos/banner_ayuda.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+        opacity: 0.5;
+        z-index: 0;
+    }
+
+    h2 {
+        z-index: 1;
+    }
+}
+
+h2 {
+    @extend h1;
+    
+}

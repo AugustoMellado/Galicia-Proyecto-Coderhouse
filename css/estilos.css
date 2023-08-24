@@ -31,7 +31,7 @@
   color: #FFFFFF;
 }
 
-.titulos__cards, .link--nav {
+.titulos__cards, .titulos--ayuda, .link--nav {
   font-family: "Inter", sans-serif;
   font-weight: 600;
 }
@@ -73,14 +73,51 @@
 
 /*Mixin*/
 /*Footer*/
-.titulos__footer, h1 {
+.titulos__footer, .preguntas--ayuda, h1, h2 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
 
-.texto__footer, .texto__cards {
+.texto__footer, .respuestas--ayuda, .texto__cards {
   font-family: "Inter", sans-serif;
   font-weight: 400;
+}
+
+/*Pagina Ayuda*/
+.link--ayuda {
+  color: #C85000;
+  text-decoration: none;
+  transition: color 1s;
+}
+.link--ayuda:hover {
+  color: #fa6400;
+}
+
+.fondo--tituloayuda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../recursos/banner_ayuda.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.fondo--tituloayuda:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0.5;
+  z-index: 0;
+}
+.fondo--tituloayuda h2 {
+  z-index: 1;
 }
 
 /*# sourceMappingURL=estilos.css.map */
