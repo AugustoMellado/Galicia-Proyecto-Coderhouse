@@ -1,5 +1,7 @@
 /*Pagina Ayuda*/
 
+/*Textos en Ayuda*/
+
 .titulos--ayuda {
     @extend .titulos__cards;
 }
@@ -20,6 +22,8 @@
         color: $color-hoverbtn;
     }
 }
+
+/*Fondo Titulo Ayuda*/
 
 .fondo--tituloayuda {
     display: flex;

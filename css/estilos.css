@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 /*Variables Fuentes*/
-/*Nav*/
+/*Nav y Transicion Botones*/
 .link--nav {
   /*Transicion*/
   transition: background-color 1s, border-radius 1s;
@@ -57,6 +57,7 @@
   font-weight: 400;
 }
 
+/*Estilo Botones y Transicion*/
 .btn__seccionayuda {
   background: #C85000;
   color: #FFFFFF;
@@ -84,6 +85,7 @@
 }
 
 /*Pagina Ayuda*/
+/*Textos en Ayuda*/
 .link--ayuda {
   color: #C85000;
   text-decoration: none;
@@ -93,6 +95,7 @@
   color: #fa6400;
 }
 
+/*Fondo Titulo Ayuda*/
 .fondo--tituloayuda {
   display: flex;
   align-items: center;
@@ -118,6 +121,67 @@
 }
 .fondo--tituloayuda h2 {
   z-index: 1;
+}
+
+/*Pagina de Contacto*/
+/*Fondo Header Contacto y Animacion*/
+.fondo--contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  background: linear-gradient(268deg, #ffc371, #ad2931, #ffc371);
+  background-size: 400% 400%;
+  -webkit-animation: animationfondoformulario 20s ease-in-out infinite;
+  -moz-animation: Animationfondoformulario 20s ease-in-out infinite;
+  animation: Animationfondoformulario 20s ease-in-out infinite;
+}
+
+nav {
+  z-index: 1;
+}
+
+@-webkit-keyframes Animationfondoformulario {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Animationfondoformulario {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Animationfondoformulario {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*Sombreado Footer*/
+.footer--contacto {
+  box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/*Imagen Card Formulario*/
+.imagen--cardformulario {
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=estilos.css.map */
