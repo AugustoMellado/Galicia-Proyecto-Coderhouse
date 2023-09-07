@@ -18,6 +18,7 @@
     color: $color-primario;
     text-decoration: none;
     transition: color 1s;
+
     &:hover {
         color: $color-hoverbtn;
     }
@@ -56,5 +57,5 @@
 
 h2 {
     @extend h1;
-    
+
 }

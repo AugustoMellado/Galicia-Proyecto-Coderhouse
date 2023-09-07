@@ -5,68 +5,203 @@
 /*Extend*/
 
 h1 {
-    @extend .titulos__footer;
+  @extend .titulos__footer;
 }
 
 /*Cards*/
 
 .btn__card {
-    background: $color-primario;
+  background: $color-primario;
+  color: $color-secundario;
+  font-family: $fuente-principal;
+  font-weight: $weight-600;
+  transition: background 1s, color 1s;
+
+  &:hover {
+    background: $color-hoverbtn;
     color: $color-secundario;
-    font-family: $fuente-principal;
-    font-weight: $weight-600;
-    transition: background 1s, color 1s ;
-    &:hover {
-        background: $color-hoverbtn;
-        color: $color-secundario;
-    }
-    
+  }
+
 }
 
 .titulos__cards {
-    font-family: $fuente-principal;
-    font-weight: $weight-600;
+  font-family: $fuente-principal;
+  font-weight: $weight-600;
 }
 
 .texto__cards {
-    @extend .texto__footer;
+  @extend .texto__footer;
 }
 
 .card--box {
-    height: 100%;
-    background: $color-secundario;
+  height: 100%;
+  background: $color-secundario;
 }
 
 .card-img-top {
-    height: 220px;
-    object-fit: cover;
+  height: 220px;
+  object-fit: cover;
 }
 
 /*Seccion Ayuda*/
 
 .seccion__ayuda {
-    background-color: $color-background-seccionayuda;
+  background-color: $color-background-seccionayuda;
 }
 
 .subtitulos__seccionayuda {
-    font-family: $fuente-principal;
-    color: $color-subtitulos-seccionayuda;
-    font-weight: $weight-400;
+  font-family: $fuente-principal;
+  color: $color-subtitulos-seccionayuda;
+  font-weight: $weight-400;
 }
 
 /*Estilo Botones y Transicion*/
 
 .btn__seccionayuda {
-    background: $color-primario;
+  background: $color-primario;
+  color: $color-secundario;
+  font-family: $fuente-principal;
+  font-weight: $weight-600;
+  width: 100%;
+  max-width: 350px;
+  transition: background 1s, color 1s;
+
+  &:hover {
+    background: $color-hoverbtn;
     color: $color-secundario;
-    font-family: $fuente-principal;
-    font-weight: $weight-600;
-    width: 100%;
-    max-width: 350px;
-    transition: background 1s, color 1s;
-    &:hover {
-        background: $color-hoverbtn;
-        color: $color-secundario;
-    }
+  }
 }
 
+.banner-focus-in2 {
+  -webkit-animation: text-focus-in 1s ease-out 0.75s both;
+  animation: text-focus-in 1s ease-out 0.75s both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.banner-focus-in {
+  -webkit-animation: text-focus-in 1s ease-out 0.25s both;
+  animation: text-focus-in 1s ease-out 0.25s both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.scale-in-ver-top {
+  -webkit-animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+  animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

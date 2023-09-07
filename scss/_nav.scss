@@ -4,7 +4,9 @@
     @extend .titulos__cards;
     /*Transicion*/
     transition: background-color 1s, border-radius 1s;
+
     &:hover {
         background-color: $color-hoverlinknav;
-        border-radius: 10px;}
+        border-radius: 10px;
+    }
 }

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!--SEO-->
+    <title>Banco Galicia: Quiero</title>
+    <meta name="description"
+        content="Descubre un mundo de recompensas y beneficios en nuestra sección de Puntos y Canje de Banco Galicia. Convierte tus puntos en descuentos exclusivos, productos deseables y beneficios especiales. Maximiza el valor de tus transacciones y disfruta de las ventajas que hemos diseñado pensando en ti. ¡Empieza a canjear y disfrutar hoy mismo!">
+    <meta name="keywords"
+        content="programa puntos quiero, canje de puntos, descuentos, productos con descuento, beneficios exclusivos, tarjetas de fidelidad, recompensas, catálogo de premios, acumulación de puntos, ofertas especiales, programa de lealtad, cliente preferencial, promociones banco galicia, tarjetas de crédito con recompensas, beneficios por puntos">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../recursos/icono_banco_galicia.png">
+</head>
+
+<body>
+    <!--HTML Semántico-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-2 bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-2" href="../index.html"> <img src="../recursos/logo_banco_galicia.svg"
+                    alt="Logo Galicia" width="165.391 px" height="48 px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active link--nav pe-4 ps-4 me-2 ms-2" aria-current="page"
+                            href="../index.html">Personas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active link--nav pe-4 ps-4 me-2 ms-2" aria-current="page"
+                            href="../paginas/empresas.html">Empresas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active link--nav pe-4 ps-4 me-2 ms-2" aria-current="page" href="#">Quiero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active link--nav pe-4 ps-4 me-2 ms-2" aria-current="page"
+                            href="../paginas/ayuda.html">Ayuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active link--nav pe-4 ps-4 me-2 ms-2" aria-current="page"
+                            href="../paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Banner Quiero Imagen-->
+    <header class="container mt-4 d-flex justify-content-center d-none d-md-block">
+        <div id="carouselExampleAutoplaying"
+            class="carousel slide col-12 shadow bg-body-tertiary rounded banner-focus-in" data-bs-ride="carousel">
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active ">
+                    <img src="../recursos/banner_quiero.jpg" class="d-block w-100"
+                        alt="Imagen banner de promoción Quiero sobre comida.">
+                </div>
+                <div class="carousel-item">
+                    <img src="../recursos/banner_quiero2.jpg" class="d-block w-100"
+                        alt="Imagen banner de promoción Quiero sobre cajear puntos.">
+                </div>
+                <div class="carousel-item">
+                    <img src="../recursos/banner_quiero3.jpg" class="d-block w-100"
+                        alt="Imagen banner de promoción Quiero sobre recargar telefono movil.">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main class="container mt-4">
+        <!--Filtros-->
+        <section class="d-flex row">
+            <div class="d-inline-flex col-12 col-sm-8 align-items-center ">
+                <p class="texto_prefiltro d-flex me-4 banner-focus-in2">Filtar por:</p>
+                <div class="dropdown d-flex me-4 d-none d-md-block">
+                    <p class="dropdown-toggle texto_filtro banner-focus-in2" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Todos los beneficios
+                    </p>
+                    <ul class="dropdown-menu ps-2 pe-2 texto_prefiltro">
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria" id="check1"
+                                checked>
+                            <label class="form-check-label " for="check1">
+                                Todos los beneficios
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check2">
+                            <label class="form-check-label" for="check2">
+                                Ahorros
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check3">
+                            <label class="form-check-label" for="check3">
+                                Productos
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check4">
+                            <label class="form-check-label" for="check4">
+                                Vouchers
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check5">
+                            <label class="form-check-label" for="check5">
+                                Recargas
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check6">
+                            <label class="form-check-label" for="check6">
+                                Millas
+                            </label>
+                        </div>
+                        <hr class="mt-1 mb-1">
+                        <li class=""><a class="ms-2 me-2 aplicar--filtro" href="#">Aplicar</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown d-flex d-none d-md-block">
+                    <p class="dropdown-toggle texto_filtro banner-focus-in2" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Rango de puntos
+                    </p>
+                    <ul class="dropdown-menu ps-2 pe-2 texto_prefiltro">
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos1"
+                                id="check1">
+                            <label class="form-check-label" for="check1">
+                                Menos de 500
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos2"
+                                id="check2">
+                            <label class="form-check-label" for="check2">
+                                500 a 999
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos3"
+                                id="check3">
+                            <label class="form-check-label" for="check3">
+                                1000 a 1499
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos4"
+                                id="check4">
+                            <label class="form-check-label" for="check4">
+                                1500 a 1999
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos5"
+                                id="check5">
+                            <label class="form-check-label" for="check5">
+                                2000 o más
+                            </label>
+                        </div>
+                        <hr class="mt-1 mb-1">
+                        <li class=""><a class="ms-2 me-2 aplicar--filtro" href="#">Aplicar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-end pt-1">
+                <h6 class="text-end h6 d-none d-md-block texto_prefiltro banner-focus-in2">Encontramos 132 resultados
+                </h6>
+            </div>
+            <div class="d-inline-flex d-md-none">
+                <div class="dropdown d-flex me-4">
+                    <p class="dropdown-toggle texto_filtro banner-focus-in2" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Todos los beneficios
+                    </p>
+                    <ul class="dropdown-menu ps-2 pe-2 texto_prefiltro">
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria" id="check1"
+                                checked>
+                            <label class="form-check-label" for="check1">
+                                Todos los beneficios
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check2">
+                            <label class="form-check-label" for="check2">
+                                Ahorros
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check3">
+                            <label class="form-check-label" for="check3">
+                                Productos
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check4">
+                            <label class="form-check-label" for="check4">
+                                Vouchers
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check5">
+                            <label class="form-check-label" for="check5">
+                                Recargas
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2">
+                            <input class="form-check-input rounded-0" type="radio" value="" name="categoria"
+                                id="check6">
+                            <label class="form-check-label" for="check6">
+                                Millas
+                            </label>
+                        </div>
+                        <hr class="mt-1 mb-1">
+                        <li class=""><a class="ms-2 me-2 aplicar--filtro" href="#">Aplicar</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown d-flex">
+                    <p class="dropdown-toggle texto_filtro banner-focus-in2" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Rango de puntos
+                    </p>
+                    <ul class="dropdown-menu ps-2 pe-2 texto_prefiltro">
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos1"
+                                id="check1">
+                            <label class="form-check-label" for="check1">
+                                Menos de 500
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos2"
+                                id="check2">
+                            <label class="form-check-label" for="check2">
+                                500 a 999
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos3"
+                                id="check3">
+                            <label class="form-check-label" for="check3">
+                                1000 a 1499
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2 mb-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos4"
+                                id="check4">
+                            <label class="form-check-label" for="check4">
+                                1500 a 1999
+                            </label>
+                        </div>
+                        <div class="form-check ms-2 me-2">
+                            <input class="form-check-input rounded-0" type="checkbox" value="" name="categoriapuntos5"
+                                id="check5">
+                            <label class="form-check-label" for="check5">
+                                2000 o más
+                            </label>
+                        </div>
+                        <hr class="mt-1 mb-1">
+                        <li class=""><a class="ms-2 me-2 aplicar--filtro" href="#">Aplicar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Cards Quiero-->
+        <section class="d-flex pt-2 scale-in-ver-top">
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card card--box shadow-sm bg-body-tertiary rounded">
+                        <img src="../recursos/card_quiero1.png" class="card-img-top" alt="Imagen de Iberia Plus.">
+                        <div class="card-body">
+                            <p class="card-text texto__cards">Iberia Plus y Avios</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card card--box shadow-sm bg-body-tertiary rounded">
+                        <img src="../recursos/card_quiero2.png" class="card-img-top" alt="Imagen de Millas Smiles.">
+                        <div class="card-body">
+                            <p class="card-text texto__cards">Millas Smiles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card card--box shadow-sm bg-body-tertiary rounded">
+                        <img src="../recursos/card_quiero3.png" class="card-img-top"
+                            alt="Imagen de ahorro en entretenimiento.">
+                        <div class="card-body d-block flex-column ">
+                            <div class="d-flex flex-row align-items-center mb-2">
+                                <i class="quiero-icon me-1"></i>
+                                <p class="titulos__cards m-0">260</p>
+                            </div>
+                            <p class="card-text texto__cards ">20% de ahorro en Entretenimiento</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card card--box shadow-sm bg-body-tertiary rounded">
+                        <img src="../recursos/card_quiero4.png" class="card-img-top" alt="Imagen de ahorro en Kel.">
+                        <div class="card-body d-block flex-column ">
+                            <div class="d-flex flex-row align-items-center mb-2">
+                                <i class="quiero-icon me-1"></i>
+                                <p class="titulos__cards m-0">300</p>
+                            </div>
+                            <p class="card-text texto__cards ">10% de ahorro en Kel</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card card--box shadow-sm bg-body-tertiary rounded">
+                        <img src="../recursos/card_quiero5.png" class="card-img-top"
+                            alt="Imagen de ahorro en Farmacity.">
+                        <div class="card-body d-block flex-column ">
+                            <div class="d-flex flex-row align-items-center mb-2">
+                                <i class="quiero-icon me-1"></i>
+                                <p class="titulos__cards m-0">320</p>
+                            </div>
+                            <p class="card-text texto__cards ">20% de ahorro en Farmacity</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card card--box shadow-sm bg-body-tertiary rounded">
+                        <img src="../recursos/card_quiero6.png" class="card-img-top"
+                            alt="Imagen de ahorro en Get The Look.">
+                        <div class="card-body d-block flex-column ">
+                            <div class="d-flex flex-row align-items-center mb-2">
+                                <i class="quiero-icon me-1"></i>
+                                <p class="titulos__cards m-0">320</p>
+                            </div>
+                            <p class="card-text texto__cards ">20% de ahorro en Get The Look</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card card--box shadow-sm bg-body-tertiary rounded">
+                        <img src="../recursos/card_quiero7.png" class="card-img-top" alt="Imagen de Guapaleta.">
+                        <div class="card-body d-block flex-column">
+                            <div class="d-flex flex-row align-items-center mb-2">
+                                <i class="quiero-icon me-1"></i>
+                                <p class="titulos__cards m-0">520</p>
+                            </div>
+                            <p class="card-text texto__cards ">Guapaleta Grande</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card card--box shadow-sm bg-body-tertiary rounded">
+                        <img src="../recursos/card_quiero8.png" class="card-img-top"
+                            alt="Imagen de ahorro en indumentaria.">
+                        <div class="card-body d-block flex-column">
+                            <div class="d-flex flex-row align-items-center mb-2">
+                                <i class="quiero-icon me-1"></i>
+                                <p class="titulos__cards m-0">550</p>
+                            </div>
+                            <p class="card-text texto__cards">20% de ahorro en Indumentaria</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--Pagination-->
+        <section class="mt-5 d-flex justify-content-center banner-focus-in2">
+            <div aria-label="Page navigation example">
+                <ul class="pagination shadow-sm rounded">
+                    <li class="page-item">
+                        <a class="page-link pagination--color" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link pagination--color" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link pagination--color" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link pagination--color" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link pagination--color" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="pt-5">
+        <!--Footer-->
+        <div class="container border-bottom border-black border-bottom border-2 pb-2">
+            <div class="row gy-4 ">
+                <div class="col-xl-3 col-md-6 text-center">
+                    <h5 class="titulos__footer mb-4">Conocenos</h5>
+                    <p class="texto__footer small">Información Financiera</p>
+                    <p class="texto__footer small">Disciplina de Mercado</p>
+                    <p class="texto__footer small">Resumen de Información Financiera</p>
+                    <p class="texto__footer small">Información corporativa</p>
+                    <p class="texto__footer small">Relaciones Institucionales</p>
+                    <p class="texto__footer small">Proveedores</p>
+                    <p class="texto__footer small">Programa de Integridad</p>
+                    <p class="texto__footer small">Galicia Sustentable</p>
+                </div>
+                <div class="col-xl-3 col-md-6 text-center">
+                    <h5 class="titulos__footer mb-4 ">Atención al cliente</h5>
+                    <p class="texto__footer small">Ayuda</p>
+                    <p class="texto__footer small">Buscador de sucursales y cajeros</p>
+                    <p class="texto__footer small">Contactanos</p>
+                    <p class="texto__footer small">Solicitud de productos</p>
+                    <p class="texto__footer small">Contratos de adhesión - Ley 24.240 de Def. del Consumidor</p>
+                </div>
+                <div class="col-xl-3 col-md-6 text-center">
+                    <h5 class="titulos__footer mb-4">Productos</h5>
+                    <p class="texto__footer small">Tarjetas de Crédito y Tarjetas de Débito</p>
+                    <p class="texto__footer small">Préstamos Personales</p>
+                    <p class="texto__footer small">Plazo Fijo</p>
+                    <p class="texto__footer small">Solicitud de productos</p>
+                    <p class="texto__footer small">Promociones</p>
+                </div>
+                <div class="col-xl-3 col-md-6 text-center">
+                    <h5 class="titulos__footer mb-4">Más sitios</h5>
+                    <p class="texto__footer small">Sumate al Equipo Galicia</p>
+                    <p class="texto__footer small">Galicia Comex</p>
+                    <p class="texto__footer small">Fondos Fima</p>
+                    <p class="texto__footer small">Galicia Securities</p>
+                    <p class="texto__footer small">Oficios Judiciales</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4 pb-4">
+            <div class="row gy-4 ">
+                <div class="col-xl-4 col-sm-6 text-center">
+                    <h5 class="titulos__footer mb-1 mb-xl-4">¡Seguinos en redes!</h5>
+                    <div class="container-fluid">
+                        <div class="row gy-4">
+                            <div class="col-xl-1 col-0"></div>
+                            <a class="col-xl-2 col-4" href="https://www.youtube.com/user/BANCOGALICIA"><img
+                                    src="../recursos/social_1.svg" alt="Logo link a Youtube Banco Galicia"></a>
+                            <a class="col-xl-2 col-4" href="https://twitter.com/bancogalicia/"><img
+                                    src="../recursos/social_2.svg" alt="Logo link a Twitter Banco Galicia"></a>
+                            <a class="col-xl-2 col-4" href="https://www.linkedin.com/company/bancogalicia/"><img
+                                    src="../recursos/social_3.svg" alt="Logo link a Linkedin Banco Galicia"></a>
+                            <a class="col-xl-2 col-4" href="https://www.facebook.com/bancogalicia/?locale=es_LA"><img
+                                    src="../recursos/social_4.svg" alt="Logo link a Facebook Banco Galicia"></a>
+                            <a class="col-xl-2 col-4" href="https://www.instagram.com/bancogalicia/?hl=es-la"><img
+                                    src="../recursos/social_5.svg" alt="Logo link a Instagram Banco Galicia"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-sm-6 text-center">
+                    <h5 class="titulos__footer mb-4 ">Teléfonos útiles</h5>
+                    <p class="texto__footer">Fonobanco Galicia: 0810-444-6500 / 0800-888-4254 para todo el país.</p>
+                    <p class="texto__footer">También podés contactarnos por WhatsApp, todos los días, las 24 horas.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

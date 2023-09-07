@@ -1,0 +1,40 @@
+/*Pagina Quiero*/
+
+.quiero-icon {
+    background-image: url(../recursos/icon-moneda.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.texto_prefiltro {
+    @extend .texto__footer;
+}
+
+.texto_filtro {
+    @extend .titulos__cards;
+}
+
+.aplicar--filtro {
+    @extend .titulos__cards;
+    color: $color-primario;
+    text-decoration: none;
+    transition: color 1s;
+
+    &:hover {
+        color: $color-hoverbtn;
+    }
+}
+
+.pagination--color {
+    font-family: $fuente-principal;
+    font-weight: $weight-400;
+    color: $color-primario;
+    transition: color 1s;
+
+    &:hover {
+        color: $color-hoverbtn;
+    }
+}
