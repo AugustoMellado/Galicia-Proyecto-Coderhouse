@@ -10,7 +10,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="../css/estilos.css">
     <!--SEO-->
-    <title>Banco Galicia: Contacto</title>
+    <title>Banco Galicia - Argentina: Contacto</title>
     <meta name="description"
         content="Contacta con nosotros en Banco Galicia para resolver tus consultas y necesidades financieras. Nuestro equipo de expertos está listo para brindarte asistencia personalizada en servicios bancarios, préstamos, inversiones y más. ¡Descubre cómo podemos ayudarte hoy mismo!">
     <meta name="keywords"
@@ -63,18 +63,18 @@
                     <img class="imagen--cardformulario img-fluid col-4 rounded-start rounded-0 p-0 d-none d-xxl-block"
                         src="../recursos/cardempresa_1.jpeg" alt="Imagen de mujer joven trabajando.">
                     <div class="col-12 col-xxl-8 ps-3 pe-3 pt-3 pb-3">
-                        <form action="#" class="needs-validation" method="post" novalidate>
+                        <form  class="needs-validation" method="post" name="formulariocontacto" novalidate netlify>
                             <div class="row">
                                 <div class="col-12 col-sm-6 mb-2">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="floatingInputName"
+                                        <input type="text" class="form-control" id="floatingInputName" name="nombre"
                                             placeholder="ej: Juan" required>
                                         <label for="floatingInputName" class="">Nombre</label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6 mb-2">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="floatingInputApellido"
+                                        <input type="text" class="form-control" id="floatingInputApellido" name="apellido"
                                             placeholder="ej: Gonzales" required>
                                         <label for="floatingInputApellido" class="">Apellido</label>
                                     </div>
@@ -83,14 +83,14 @@
                             <div class="row">
                                 <div class="col-12 col-xl-4 col-xxl-12 mb-2">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="floatingInputEmail"
+                                        <input type="email" class="form-control" id="floatingInputEmail" name="email"
                                             placeholder="ej: JuanG@gmail.com" required>
                                         <label for="floatingInputEmail" class="">Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 col-xxl-6 mb-2">
                                     <div class="form-floating">
-                                        <select class="form-select" id="tipocliente"
+                                        <select class="form-select" id="tipocliente" name="tipocliente"
                                             aria-label="Floating label select example" required>
                                             <option selected disabled value="">Seleccione opción</option>
                                             <option value="1">Persona</option>
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 col-xxl-6 mb-2">
                                     <div class="form-floating">
-                                        <select class="form-select" id="tipocontacto"
+                                        <select class="form-select" id="tipocontacto" name="tipodecontacto"
                                             aria-label="Floating label select example" required>
                                             <option selected disabled value="">Seleccione opción</option>
                                             <option value="1">Quiero ser Galicia</option>
@@ -115,7 +115,7 @@
                             </div>
                             <div>
                                 <div class="form-floating mb-3">
-                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                    <textarea class="form-control" placeholder="Leave a comment here" name="comentario"
                                         id="floatingTextareaComentario" style="height: 100px" required></textarea>
                                     <label for="floatingTextareaComentario">Dejanos tu comentario</label>
                                 </div>
@@ -128,7 +128,7 @@
                                 </div>
                             </div>
                             <div>
-                                <button type="submit" class="btn btn__card">Enviar</button>
+                                <button type="submit" name="enviar" id="enviar" class="btn btn__card">Enviar</button>
                             </div>
                         </form>
                     </div>
